@@ -76,3 +76,11 @@ $ npm start
 ```bash
 $ npm install bootstrap@5.1.3 reactstrap@9.2.1
 ```
+- Install axios to make HTTP requests to the API endpoints
+```bash
+$ npm install axios
+```
+
+
+## Credits
+https://www.digitalocean.com/community/tutorials/build-a-to-do-application-using-django-and-react
