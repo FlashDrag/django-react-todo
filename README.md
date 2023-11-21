@@ -57,3 +57,22 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
+### Frontend
+#### Requirements
+- Node.js
+- npm
+#### Installation
+- Open a new terminal within the root directory
+- Create a new React app
+```bash
+$ npx create-react-app frontend
+```
+- Go to the `frontend` directory and start the server
+```bash
+$ cd frontend
+$ npm start
+```
+- Install bootstrap and reactstrap to provide user interface tools
+```bash
+$ npm install bootstrap@5.1.3 reactstrap@9.2.1
+```
