@@ -80,6 +80,13 @@ $ npm install bootstrap@5.1.3 reactstrap@9.2.1
 ```bash
 $ npm install axios
 ```
+- Add proxy to `package.json`
+
+*The proxy will help in tunneling API requests to http://localhost:8000 where the Django application will handle them. With proxy we can provide relative paths to the API endpoints instead of absolute paths.*
+```json
+"proxy": "http://localhost:8000"
+```
+- Restart the server
 
 
 ## Credits
